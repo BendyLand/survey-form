@@ -15,16 +15,22 @@
         <p id="description">Thank you for taking the time to help us improve the platform</p>
 
         <!-- form element with an id of survey-form -->
-        <form action="#" id="survey-form"></form>
-            <label for="name" id="name-label"></label><input type="text" id="name" placeholder="Enter your name" required /></label>
-            <label for="email" id="email-label"></label><input type="text" id="email" placeholder="Enter your Email" required />
-            <label for="number" id="number-label"></label><input type="number" id="number" min="0" max="1000000" placeholder="Age">
+        <form action="#" id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label"><input type="text" id="name" placeholder="Enter your name" required /></label>
+                <label for="email" id="email-label"><input type="text" id="email" placeholder="Enter your Email" required /></label>
+                <label for="number" id="number-label"><input type="number" id="number" min="0" max="1000000" placeholder="Age"></label>
+            </fieldset>
             <!-- inside the form, add radio inputs grouped with the name attribute -->
-            <label for="recommend">
-                <input type="radio" name="recommend" id="defintely">
-                <input type="radio" name="recommend" id="maybe">
-                <input type="radio" name="recommend" id="not-sure">
-            </label>
+            <fieldset>
+                <label for="defintely"><input type="radio" name="recommend" id="defintely">Definitely</label>
+                <label for="maybe"><input type="radio" name="recommend" id="maybe">Maybe</label>
+                <label for="not-sure"><input type="radio" name="recommend" id="not-sure">Not sure</label>
+            </fieldset>
+            
+            
+            
+            </form>
 
 
         <!-- inside the form, add a select dropdown element with id of dropdown -->
