@@ -16,12 +16,16 @@
 
         <form action="#" id="survey-form">
             <fieldset>
+                <h2>Name</h2>
                 <label for="name" id="name-label"><input type="text" id="name" placeholder="Enter your name" required /></label>
-                <label for="email" id="email-label"><input type="text" id="email" placeholder="Enter your Email" required /></label>
-                <label for="number" id="number-label"><input type="number" id="number" min="0" max="1000000" placeholder="Age"></label>
+                <h2>Email</h2>
+                <label for="email" id="email-label"><input type="email" id="email" placeholder="Enter your Email" required /></label>
+                <h2>Age</h2> <h3>(optional)</h3>
+                <label for="number" id="number-label"><input type="number" id="number" min=0 max=1000000 placeholder="Age"></label>
             </fieldset>
             
             <fieldset>
+                <h2>Which option best describes your current role?</h2>
                 <label for="role">
                     <select name="role" id="role">
                         <option value="">Select current role</option>
@@ -35,14 +39,15 @@
             </fieldset>            
 
             <fieldset>
+                <h2>Would you recommend freeCodeCamp to a friend?</h2>
                 <label for="defintely"><input type="radio" name="recommend" id="defintely">Definitely</label>
                 <label for="maybe"><input type="radio" name="recommend" id="maybe">Maybe</label>
                 <label for="not-sure"><input type="radio" name="recommend" id="not-sure">Not sure</label>
             </fieldset>
-            <!-- inside the form, add a select dropdown element with id of dropdown -->
+
             <fieldset>
+                <h2>What is your favorite feature of freeCodeCamp?</h2>
                 <label for="dropdown">
-                    <!-- inside the form, you can select multiple checkboxes each of which needs a value attribute -->
                     <select name="dropdown" id="dropdown">
                         <option value="">(Select an option)</option>
                         <option value="1">Challenges</option>
@@ -54,6 +59,7 @@
             </fieldset>            
             
             <fieldset>
+                <h2>What would you like to see improved?</h2> <h3>(Check all that apply)</h3>
                 <label for="front-end-projects"><input type="checkbox" name="improve" id="front-end-projects">Front-end Projects</label>
                 <label for="back-end-projects"><input type="checkbox" name="improve" id="back-end-projects">Back-end Projects</label>
                 <label for="data-visualization"><input type="checkbox" name="improve" id="data-visualization">Data Visualization</label>
@@ -68,6 +74,7 @@
             </fieldset>
             
             <fieldset>
+                <h2>Any comments or suggestions?</h2>
                 <textarea name="" id="comments" cols="50" rows="5" placeholder="Enter your comment here..."></textarea>        
             </fieldset>
 
