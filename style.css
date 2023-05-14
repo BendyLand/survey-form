@@ -2,6 +2,25 @@
     font-family: sans-serif;
 }
 
-#name-label, #email-label, #number-label {
+#name-label,
+#email-label,
+#number-label {
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    background-color: rgb(31, 20, 46);
+    color: white;
+}
+
+.recommend {
+    display: block;
+}
+
+.improve {
     display: block;
 }
