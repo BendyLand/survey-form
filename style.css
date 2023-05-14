@@ -11,6 +11,13 @@ body {
 #email-label,
 #number-label {
     display: block;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#optional {
+    font-size: 15px;
+    font-weight: 100;
 }
 
 fieldset {
@@ -46,14 +53,22 @@ header div.container {
 #title {
     margin-bottom: 8px;
     font-weight: 400;
+    font-size: 33px;
 }
 
 #description {
     font-size: 20px;
     margin-top: 0;
     font-weight: 100;
+    font-style: italic;
 }
 
 input {
-    border-radius: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+.personal-info {
+    margin: 0 0 20px 0;
+    font-size: 20px;   
 }
