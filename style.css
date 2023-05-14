@@ -4,6 +4,7 @@
 
 body {
     background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    margin: 0;
 }
 
 #name-label,
@@ -19,6 +20,9 @@ fieldset {
 form {
     background-color: rgba(27, 27, 50, 0.8);
     color: white;
+    border-radius: 4px;
+    margin: 0 80px;
+    padding: 50px 30px;
 }
 
 .recommend {
@@ -31,7 +35,6 @@ form {
 
 header {
     color: white;
-    font-weight: 200;
     text-align: center;
 }
 
@@ -42,9 +45,15 @@ header div.container {
 
 #title {
     margin-bottom: 8px;
+    font-weight: 400;
 }
 
 #description {
     font-size: 20px;
     margin-top: 0;
+    font-weight: 100;
+}
+
+input {
+    border-radius: 5px;
 }
