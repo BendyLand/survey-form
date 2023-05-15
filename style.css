@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -69,18 +69,21 @@ input {
     border: none;
 }
 
-.personal-info {
-    margin-bottom: 20px;
-    font-size: 20px;
-    padding-left: 0;
-
-}
-
+/* these are the input elements */
 #name,
 #email,
 #number {
-    width: 90%;
-    height: 2em;
-    padding: 5px;
+    width: 100%;
+    padding: 8px;
+    margin: 10px auto 20px auto;
+    border-radius: 4px;
+}
 
+/* this is the fieldset holding the personal-info classes */
+#personal-info {
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 0;
+    left: auto;
+    right: auto;
 }
