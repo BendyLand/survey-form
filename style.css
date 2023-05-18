@@ -7,9 +7,14 @@ body {
     margin: 0;
 }
 
+#survey-form {
+    padding: 50px 70px;
+}
+
 #name-label,
 #email-label,
-#number-label {
+#number-label,
+#role-label {
     display: block;
     font-size: 20px;
     font-weight: 300;
@@ -22,6 +27,8 @@ body {
 
 fieldset {
     border: none;
+    margin: 0;
+    padding: 0;
 }
 
 form {
@@ -67,16 +74,19 @@ header div.container {
 input {
     border-radius: 2px;
     border: none;
+    padding: 0;
 }
 
 /* these are the input elements */
 #name,
 #email,
-#number {
+#number,
+#role {
+    display: block;
+    border-radius: 3px;
+    margin: 10px auto 10px 0;
     width: 100%;
-    padding: 8px;
-    margin: 10px auto 20px auto;
-    border-radius: 4px;
+    min-height: 30px;
 }
 
 /* this is the fieldset holding the personal-info classes */
