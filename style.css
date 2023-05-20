@@ -15,7 +15,8 @@ body {
 #email-label,
 #number-label,
 #role-label,
-#recommend {
+#recommend,
+#favorite {
     display: block;
     font-size: 20px;
     font-weight: 300;
@@ -83,12 +84,18 @@ input {
 #email,
 #number,
 #role,
-#recommend {
+#recommend,
+#dropdown {
     display: block;
     border-radius: 3px;
     margin: 10px auto 10px 0;
     width: 100%;
     min-height: 30px;
+}
+
+.recommend {
+    padding: 3px;
+    padding-left: 0;
 }
 
 /* this is the fieldset holding the personal-info classes */
