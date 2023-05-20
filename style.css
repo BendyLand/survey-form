@@ -14,7 +14,8 @@ body {
 #name-label,
 #email-label,
 #number-label,
-#role-label {
+#role-label,
+#recommend {
     display: block;
     font-size: 20px;
     font-weight: 300;
@@ -81,7 +82,8 @@ input {
 #name,
 #email,
 #number,
-#role {
+#role,
+#recommend {
     display: block;
     border-radius: 3px;
     margin: 10px auto 10px 0;
