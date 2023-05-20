@@ -8,7 +8,7 @@ body {
 }
 
 #survey-form {
-    padding: 50px 70px;
+    padding: 50px 50px;
 }
 
 #name-label,
@@ -16,11 +16,13 @@ body {
 #number-label,
 #role-label,
 #recommend,
-#favorite {
+#favorite,
+#comment-title {
     display: block;
     font-size: 20px;
     font-weight: 300;
 }
+
 
 #optional {
     font-size: 15px;
@@ -85,7 +87,8 @@ input {
 #number,
 #role,
 #recommend,
-#dropdown {
+#dropdown,
+#comments {
     display: block;
     border-radius: 3px;
     margin: 10px auto 10px 0;
@@ -93,7 +96,29 @@ input {
     min-height: 30px;
 }
 
+#comments {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 15px;
+}
+
 .recommend {
+    padding: 3px;
+    padding-left: 0;
+}
+
+#improve {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#improve-subtitle {
+    font-size: 15px;
+}
+
+.improve {
     padding: 3px;
     padding-left: 0;
 }
@@ -104,4 +129,16 @@ input {
     padding-left: 0;
     left: auto;
     right: auto;
+}
+
+
+
+#submit {
+    width: 70%;
+    background-color: rgb(0, 169, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
